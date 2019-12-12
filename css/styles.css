@@ -1,3 +1,53 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
 h1 {
-    
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    position: relative;
+    background-color: #FF5757;
+    display: block;
+    padding: 2.5%
+}
+
+.middle-container {
+    position: relative;
+    background-color: #f9f6f7;
+    padding: 3rem;
+}
+
+.bottom-container {
+    position: relative;
+    background-color: #FF5757;
+    padding: 3rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.intro {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    padding: 0 2rem;
+    font-size: 1rem;
+    background-color: black;
 }
