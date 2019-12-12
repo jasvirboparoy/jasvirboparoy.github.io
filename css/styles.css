@@ -16,6 +16,17 @@ h3 {
     font-family: 'Merriweather', serif;
 }
 
+hr {
+    border: dotted #FF5757 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+
+.subtitle {
+    color: white;
+}
+
 .top-container {
     position: relative;
     background-color: #FF5757;
@@ -40,14 +51,36 @@ h3 {
 }
 
 .intro {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 
+.contact-message{
+    margin-bottom: 40px;
+}
+
 .footer-link {
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: white;
     padding: 0 2rem;
     font-size: 1rem;
-    background-color: black;
+}
+
+.btn {
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background: #FF5757;
+}
+.btn:hover {
+  color: #FFFFFF !important;
+  background: #050A0F;
 }
