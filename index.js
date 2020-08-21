@@ -1,1 +1,1 @@
-alert("Hello World!")
+// Index js file
