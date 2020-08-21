@@ -1,1 +1,1 @@
-Just a website showcasing some of my work and also showing you who I am.
+# Code repo for my personal portfolio website
